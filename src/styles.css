@@ -1,0 +1,62 @@
+.button {
+    -fx-background-color: #000000;
+    -fx-border-color: #27dbb2;
+    -fx-text-fill: #27dbb2;
+    -fx-font-size: 1.5em;
+    -fx-padding: 10 20;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #05aba0;
+}
+.text-area {
+    -fx-font-size: 14px;
+    -fx-padding: 10;
+}
+.table-view {
+    -fx-font-size: 14px;
+}
+
+/* Заміна шрифту для всієї програми */
+.root {
+    -fx-font-family: "Comic Sans MS", sans-serif; /* Зміна шрифту для всіх елементів на Arial */
+    -fx-background-color: #092927; /* Зміна кольору фону на світло-сірий */
+}
+
+.tab {
+    -fx-font-family: "Comic Sans MS"; /* Зміна шрифту для заголовків вкладок на Arial */
+    -fx-font-size: 14px; /* Зміна розміру шрифту для заголовків вкладок */
+    -fx-background-color: #000000; /* Колір фону вкладок */
+    -fx-text-fill: white; /* Колір тексту вкладок */
+    -fx-padding: 10px; /* Відступи внутрішнього вмісту вкладок */
+}
+.tab-pane > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-color: #27dbb2; /* Змінити колір обводки для активної вкладки */
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:selected .tab-label {
+    -fx-text-fill: #27dbb2; /* Змінити колір тексту для активної вкладки */
+}
+.label {
+    -fx-text-fill: #27dbb2; /* Змінити колір тексту для Label */
+}
+.text-area {
+    -fx-text-fill: #27dbb2; /* Колір тексту */
+    -fx-control-inner-background: #000000; /* Колір фону */
+    -fx-text-box-border: #27dbb2;
+}
+.tab-pane .tab-header-background {
+    -fx-background-color: #000000; /* Змінюємо колір фону панелі вкладок */
+}
+.table-view .column-header, .table-view .column-header-background {
+    -fx-background-color: #000000; /* колір фону заголовків стовпців */
+    -fx-text-fill: #FFFFFF; /* колір тексту заголовків стовпців */
+}
+
+.table-row-cell {
+    -fx-background-color: #092927; /* колір фону рядків таблиці */
+}
+.table-cell {
+    -fx-text-fill: #27dbb2; /* колір тексту у всій таблиці */
+}
